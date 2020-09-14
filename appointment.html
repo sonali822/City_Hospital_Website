@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Crete Round' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Flamenco' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Allerta' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=PT Sans Caption' rel='stylesheet'>
+
+
+<style>
+    .footer{
+        height: 15%;
+        background-color: black;
+    }
+    
+    html{
+        background-color: whitesmoke;
+    }
+    
+          #logo
+        {
+           margin-top: 0;
+             background: blue;
+             height:4%;  
+             width:100%;
+             font-size: 10px;
+             font-family: initial;
+             
+             color: white;
+            font-family: 'Crete Round';font-size: 10px;
+             
+             
+             
+             
+             
+        }   
+        #menu
+        {
+            padding: 10px;
+            background:aqua;
+            height:15%;  
+            width: 100%;
+            font-style: serifs bold;
+            font-family: Arial;
+            font-size:20px;
+            margin-top: 5px;
+     
+                
+        }
+               
+               
+        #menu li a
+{
+
+
+display:block;  
+height: 25px;
+
+font-weight: bold;
+color: black;
+text-align: center;
+text-decoration: none;
+font-family: helvetica;
+
+
+ font-family: 'Allerta';font-size: 20px;
+
+
+
+
+
+
+}
+
+
+          ul
+        {
+            text-decoration:none;
+             text-align: right;
+        }
+        li
+        {
+            display:inline-block;
+            margin:10px;
+           
+            
+        }
+        
+            
+            
+        
+        
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}
+
+* {
+  box-sizing: border-box;
+   
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("images/appoint.jpg");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(5px);
+  
+  /* Full height */
+  height: 100%; 
+  margin-top: 130px;
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(191, 151, 172); /* Fallback color */
+  background-color: rgb(182, 151, 245);
+  color: black;
+   
+   
+    
+  color: black;
+  font-weight: bold;
+  border: 3px dotted white;
+  position: absolute;
+  top: 320px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  margin-top: 300px;
+  font-size: 20px;
+  font-family: 'PT Sans Caption';
+  
+}
+ 
+
+
+</style>
+</head>
+<body>
+    
+    
+    <div id="google_translate_element"></div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    
+    
+<div id="logo">
+           
+            <h1 style="margin-left: 90px;" >WELCOME TO CITY HOSPITAL</h1>
+            
+           
+                
+            </div>
+     <div id="menu">
+            
+            
+        <ul>
+           
+            
+           <img src="images/Zila.png"  align="left" height="65px;" width="300px;" margin-left="100%;" >
+            <li><a href="Home.html">Home </a></li>
+            <li><a href="doctor.html">Doctor</a></li>
+            <li><a href="departments.html">Departments</a></li>
+           
+            <li><a href="pharma.html">Pharmacy</a></li>
+                <li><a href="service.html">Service</a></li> 
+                <li><a href="#">Appointment</a></li> 
+                <li><a href="service.html">Contact Us</a></li> 
+               
+               
+            
+                
+        </ul>
+           
+        </div>
+        
+
+         
+       
+
+<div class="bg-text">
+  <h1 style="font-size:50px">Book Your Appointment</h1>
+  <h3 style="font-size:20px">All Fields Are Mandatory </h3><br>
+   <form action="RegisTask.java">
+       Patient Name:     <input type="text" name="name"><br><br><br>
+                
+       Email Id    :      <input type="email"name="email"><br><br><br>
+               Patient Contact No.:   <input type="number"name="mobile"><br><br><br>
+              Patient  Gender:   <input type="radio" name="gender" value="male"> Male
+              <input type="radio" name="gender" value="female"> Female<br><br><br>
+                          Patient Address:  <input type="text"  name="address"><br><br><br>
+                          Select Date of Appointment:  <input type="date" name="date"><br><br><br>
+                          
+  
+                          
+                              
+                          Patient Age:  <input type="text" name="age"><br><br><br>
+                          Choose Your Doctor
+                          <select name="departments">
+  <option value="1">Choose</option>
+  <option value="2">Neurology</option>
+  <option value="4">Cardiology</option>
+  <option value="5">Dental</option>
+  <option value="6">Opthamology</option>
+  <option value="7">Urology</option>
+  <option value="8">Ent</option>
+  <input type="submit" value="submit"><br><br>
+                        
+                
+                <input type="submit"value="Fix Appointment" style="font-size: 20px">
+            </form>   
+</div>
+
+
+
+
+</body>
+
+</html>
