@@ -1,6 +1,6 @@
 # City_Hospital_Website
 
-  I made a Govt. City Hospital Chhatarpur Website 
+ I made a Govt. City Hospital Website for front-end I use Html, CSS, And Js to call some Api's,
 --------------------------------------
 and for back-end, I use MYSQL Query
 -----------------------------------
