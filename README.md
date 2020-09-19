@@ -1,8 +1,8 @@
 # City_Hospital_Website
 
-  I made Govt.City Hospital Chhatarpur Website 
+  I made a Govt. City Hospital Chhatarpur Website 
 --------------------------------------
-and for back-end i use MYSQL Query
+and for back-end, I use MYSQL Query
 -----------------------------------
 Skills Used --> HTML , CSS , JSP , &  JAVASCRIPT
 ---------------------------------------------
@@ -13,10 +13,10 @@ DataBase ----> MYSQL
 Some Functionalities of my website as follows ->
 ---------------------------------------------------------
 
-1.  used GOOGLE'S TRANSLATOR API that converts whole site in any language
-2.  used GOOGLE'S MAP API so user can easily access map and see the location of hospital in map.
-3.  user can see all the GOVT'S SCHEME such as Ayushman Bharat Pradhan Mantri Jan Arogya Yojana,Pradhan MantriSurakshit Matritva Abhiyan etc
-4.  maked a page of Donar's name so we can appreciate them
+1.  used GOOGLE'S TRANSLATOR API that converts the whole site in any language
+2.  used GOOGLE'S MAP API so users can easily access maps and see the location of the hospital in the map.
+3.  user can see all the GOVT'S SCHEME such as Ayushman Bharat Pradhan Mantri Jan Arogya Yojana, Pradhan MantriSurakshit Matritva Abhiyan, etc
+4. made a page of Donar's name so we can appreciate them
 
 Screenshots -->
 ![img1](https://user-images.githubusercontent.com/64797556/93124069-b18de980-f6e6-11ea-92e6-94a671b73f9a.PNG)
